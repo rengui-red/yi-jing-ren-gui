@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scalecale=1.0">
+  <title>艺境 仁归 自然之梦 | 个人博客</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: "Noto Serif SC", "微软雅黑", serif;
+      background: #f8f8f5;
+      color: #365144;
+    }
+    header {
+      background: linear-gradient(120deg,#dee9db 50%,#c3e3e1 100%);
+      padding: 48px 0 28px 0;
+      text-align: center;
+    }
+    .title {
+      font-size: 2.8rem;
+      letter-spacing: .18em;
+      font-weight: bold;
+      margin-bottom: .7em;
+      word-spacing: .5em;
+    }
+    .subtitle {
+      font-size: 1.3rem;
+      color: #1d7e63;
+      letter-spacing: .12em;
+    }
+    nav {
+      display: flex;
+      justify-content: center;
+      gap: 2.5em;
+      background: #f3f7ef;
+      font-size: 1.1rem;
+      padding: 10px 0;
+      box-shadow: 0 2px 6px rgba(90,120,90,.06);
+      margin-bottom: 28px;
+    }
+    nav a {
+      text-decoration: none;
+      color: #388175;
+      font-weight: 500;
+      transition: color 0.15s;
+    }
+    nav a:hover {
+      color: #6c9b6c;
+    }
+    .welcome {
+      max-width: 650px;
+      margin: 36px auto 28px auto;
+      padding: 22px 19px;
+      background: #eaf8ebeb;
+      border-radius: 14px;
+      text-align: center;
+      font-size: 1.28rem;
+      box-shadow: 0 3px 16px rgba(100,140,100,.08);
+    }
+    .featured {
+      max-width: 1080px;
+      margin: 28px auto;
+      display: grid;
+      grid-template-columns: repeat(auto-fit,minmax(290px,1fr));
+      gap: 22px;
+    }
+    .card {
+      background: #fff;
+      border-radius: 12px;
+      padding: 20px 16px 16px 16px;
+      box-shadow: 0 2px 7px rgba(90,120,90,.13);
+      transition: box-shadow 0.15s;
+    }
+    .card:hover {
+      box-shadow: 0 8px 24px rgba(42,62,42,0.17);
+    }
+    .card img {
+      width: 100%;
+      height: 140px;
+      object-fit: cover;
+      border-radius: 7px;
+      margin-bottom: 10px;
+    }
+    .card-title {
+      font-size: 1.07rem;
+      font-weight: 600;
+      color: #226458;
+      margin-bottom: 10px;
+    }
+    .card-desc {
+      font-size: .95rem;
+      color: #508070;
+      min-height: 52px;
+    }
+    .card-link {
+      font-size: .92rem;
+      margin-top: 8px;
+      display: inline-block;
+      text-decoration: none;
+      color: #377d6c;
+    }
+    .card-link:hover { text-decoration: underline;}
+    footer {
+      text-align: center;
+      color: #789099;
+      background: #f2f8f6;
+      font-size: .95rem;
+      padding: 38px 10px 14px 10px;
+      margin-top: 60px;
+      letter-spacing: .12em;
+    }
+    @media (max-width:600px) {
+      .title { font-size: 1.45rem;}
+      .featured { grid-template-columns: 1fr; }
+      .welcome {font-size: 1.03rem;}
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="title">艺境 仁归 自然之梦</div>
+    <div class="subtitle">寄心灵于艺境，寻仁归于自然。让每一次书写，都流露温和与真诚</div>
+  </header>
+  <nav>
+    <a href="#">随笔</a>
+    <a href="#">故事</a>
+    <a href="#">画廊</a>
+    <a href="#">关于</a>
+  </nav>
+  <div class="welcome">
+    欢迎光临我的博客！<br>这里记录灵感与温情，分享自然里的艺术与生活。<br>愿：心境如画，仁爱长存。<br>
+    <span style="color:#27949c; font-size:.98em;">—— 艺境 仁归 自然之梦</span>
+  </div>
+  <section class="featured">
+    <div class="card">
+      <img src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?fit=crop&w=600&q=80" alt="清晨山林">
+      <div class="card-title">清晨山林的光与雾</div>
+      <div class="card-desc">一场山林晨光，树影斑驳，静谧之间，感受自然带来的温柔力量。</div>
+      <a class="card-link" href="#">阅读全文 →</a>
+    </div>
+    <div class="card">
+      <img src="https://images.unsplash.com/photo-1465101162946-4377e57745c3?fit=crop&w=600&q=80" alt="静水湖面">
+      <div class="card-title">仁者乐水，智者乐山</div>
+      <div class="card-desc">湖水如镜，映照人心。以仁寻归的态度，看世界，和谐共处，生命各自独立。</div>
+      <a class="card-link" href="#">阅读全文 →</a>
+    </div>
+    <div class="card">
+      <img src="https://images.unsplash.com/photo-1464983953574-0892a716854b?fit=crop&w=600&q=80" alt="枫叶诗意">
+      <div class="card-title">随笔 ∙ 枫叶时节</div>
+      <div class="card-desc">秋日枫林，艺术与情感在时光中流动，片片叶红，是深情的自白。</div>
+      <a class="card-link" href="#">阅读全文 →</a>
+    </div>
+  </section>
+  <footer>
+    &copy; 2026 <b>艺境 仁归 自然之梦</b> ｜ 欢迎来踩，踩平坑坑。联系：南山居士 / 尘间盲克<br>
+    版权自主，法律保护。A I 生成，非常亮丽。技术支持：GITJSZ  |  DBJSZ
+  </footer>
+
+<p>友情提示：本页面排版与设计，均来自于大数据 AI 生成功能。所涉及的图片为示例使用，特此奉告。</p>
+</body>
+</html>
